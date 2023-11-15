@@ -1,0 +1,227 @@
+<!DOCTYPE html>    
+       <html lang="es">
+          <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+            <link rel="stylesheet" href="Styles/style.css" />
+            <link rel="stylesheet" href="Styles/tablet.css" media="screen and (min-width:600px)"/>
+            <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width:800px)"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap" rel="stylesheet" />
+           <script src="https://code.jquery.com/jquery-3.7.1.app.js"></script>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+            <script src="JS/app.js"async></script>
+            <title>Veterinaria</title>
+          </head>
+
+          <body>
+            <main class="container">
+              <div class="main-page">
+                <header class="header-container">
+                  <div class="header-title">
+                    <h1 class="title">Veterinaria Gold</h1>
+                    <span class="material-symbols-outlined">
+                      <img src="images/pets_1491117.png">
+                      </span>
+                  </div>
+                  <nav> 
+                    <div class="nav-wrapper">
+                      <a class="nav-item" href="#home">Home</a>
+                      <a class="nav-item" href="#gallery">Servicios</a>
+                      <a class="nav-item" href="#contact">Contacto</a>
+                      <a class="nav-item" href="#social">Redes</a>
+                        <li class="menu__item menu__item--show">
+                          <a href="#" class="menu__link">Turnos <img src="images/arrow.svg" class="menu__arrow"></a>
+          
+                          <ul class="menu__nesting">
+                              <li class="menu__inside">
+                                  <a href="Pedirturnos.html" target="_blank" class="menu__link menu__link--inside">Pedir Turnos</a>
+                              </li>
+                              <li class="menu__inside">
+                                  <a href="#" class="menu__link menu__link--inside">Revisar Turno</a>
+                              </li>
+
+                              </li>
+                          </ul>
+                      </li>
+                      </a>
+                    </div>
+                  </nav>
+                </header>
+            
+                <!--<div class="resume-container">
+                  <p class="resume-text">Tu mascota, nuestra familia, nuestra prioridad</p>
+                </div><-->
+              <section id="home">
+                <h2>Quienes Somos</h2>
+
+                <div class="box">
+                    <div class="details">
+                      <p> En el camino hacia la felicidad y la armonía,
+                         nos comprometemos a cuidar de las criaturas que comparten nuestro mundo. 
+                         En cada paso que dan, en cada maullido o 
+                         ladrido, vemos la vitalidad que esculpe la esencia misma de la salud animal.
+                          Nuestra misión es fomentar no solo la vitalidad física, sino también el bienestar emocional de estos compañeros peludos, emplumados y escamosos que llenan de amor nuestros hogares.
+                           A través de una atención experta, nutrición balanceada y un ambiente seguro, estamos construyendo puentes hacia una vida plena y vibrante para todas las formas de vida que han confiado en nosotros. Porque creemos que detrás de cada cola, cada aleteo y cada ronroneo, hay una historia de conexión, lealtad y alegría que merece ser preservada. En nuestra dedicación a la salud animal, encontramos un camino hacia un mundo donde todas las criaturas,
+                            grandes y pequeñas, pueden prosperar en un abrazo compartido de compasión y bienestar duradero.</p>
+                      <section class="rotatingText">
+                        <div class="rotatingText-content">
+                          <h5 class="rotatingText-adjective">Nuestra Prioridad</h5>
+                          <h5 class="rotatingText-adjective">Nuestra Familia</h5>
+                          <h5 class="rotatingText-adjective"> La perfección💝</h5>
+                        </div>
+                      </section>
+                    </div>
+                  <div class="card">
+                      <div class="imgBox">
+                          <img src="images/mobile/vete.png" alt="some image">
+                      </div>
+                      <div class="details">
+                        <h2> Cuidado veterinario con corazón.</h2>
+                  </div>
+                  </div>
+                </section>
+              
+                <section id="gallery">
+                  <div class="gallery-wrapper">
+                    <h2 class="section-title"> Servicios</h2>
+                    <div class="gallery-container">
+                      <div class="gallery-item">
+                        <picture>
+                          <figure>
+                            <source
+                              media="(min-width:min-width: 654px 240px)"
+                              srcset="images/desktop/shop.png"
+                            />
+                            <img
+                              src="images/mobile/shop.png" height="240px"
+                              alt="Pet shop"
+                              title="Nuestro Shop"
+                            />
+                          </figure>
+                          <figcaption>Nuestro Shop</figcaption>
+                        </picture>
+                      </div>
+                      <div class="gallery-item">
+                        <picture>
+                          <figure>
+                            <source
+                              media="(min-width:min-width: 800px)"
+                              srcset="images/desktop/turno.pngg"
+                          
+                            />
+                            <img
+                              src="images/mobile/turno.png" height="240px"
+                              alt="Turnos"
+                              title="Atención Clínica/ Turnos"
+                              />
+                          </figure>
+                          <figcaption>Atención Clínica</figcaption>
+                        </picture>
+                      </div>
+                      <div class="gallery-item">
+                        <picture>
+                          <figure>
+                            <source
+                              media="(min-width:min-width: 800px)"
+                              srcset="/images/desktop/labo.png"
+                            />
+                            <img
+                              src="images/mobile/labo.png" height="240px"
+                              alt="Laboratorio "
+                      title="Laboratorio" />
+                          </figure>
+                          <figcaption>Laboratorio</figcaption>
+                        </picture>
+                      </div>
+                      <div class="gallery-item">
+                        <picture>
+                          <figure>
+                            <source
+                              media="(min-width:min-width: 800px)"
+                              srcset="images/desktop/sonido.pngs"
+                            />
+                            <img
+                              src="images/mobile/sonido.png" height="240px"
+                              alt="arcade neon night "
+                        title="Diagnósticos Ecográficos" />
+                          </figure>
+                          <figcaption>Diagnósticos Ecográficos</figcaption>
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <footer>
+                  NUESTRAS MARCAS AMIGAS<img src="images/shake_8183201.png" class="amigas">
+                </footer>
+                <div class="slider-wrapper">
+                  <button class="slide-arrow" id="slide-arrow-prev">
+                  </button>
+                  <button class="slide-arrow" id="slide-arrow-next">
+                  </button>
+                  <div class="slides-container" id="slides-container">
+                    <div class="slide">
+                      <source media="images/mobile/Royal_Canin_logo_PNG3.png"/>
+                      <img src="images/desktop/Royal_Canin_logo_PNG3.png" alt="royal-canin-logo">
+                    </div>
+                    <div class="slide">
+                      <source media="images/mobile/Purina.png" />
+                      <img src="images/desktop/Purina.png" alt="Purina-logo">
+                    </div>
+                    <div class="slide">
+                      <source media="images/mobile/pedigree_logo_blue.png"/>
+                      <img src="images/desktop/pedigree_logo_blue.png" alt="Pedegree-logo">
+                    </div>
+                    <div class="slide">
+                      <source media="images/mobile/eukanuba-logo-vector.png"/>
+                      <img src="images/desktop/eukanuba-logo-vector.png" alt="Logo-Eukanuba">
+                    </div>
+                  </div>
+                </div>
+                <footer>
+                  Amor por los cuatro patas <span class="heart">&hearts;</span>
+                </footer>
+                <section id="contact">
+                  <div class="contact-wrapper">
+                    <h2 class="section-title">Contacto</h2>
+                    <h3>No dude en Escribirnos</h3>
+                    <div class="form-container">
+                      <form action="summit">
+                        <input
+                          class="input-contact"
+                          type="email"
+                          required placeholder="ejemplo@ejemplo.com"
+                        />
+                        <input type="text"
+                              class="input-contact input-group mb-3"
+                              required placeholder="Nombre y Apellido">
+                        <textarea class="input-contact" placeholder="Mensaje"></textarea>
+                        <input class="button-contact" type="submit" value="Enviar" />
+                      </form>
+                    </div>
+                    <footer id="social">
+                      <div class="footer-container">
+                        <a class="social-button" href="#">
+                          <img src="images/icon-facebook.svg" alt="social-media-facebook"
+                        /></a>
+                        <a class="social-button" href="#">
+                          <img
+                            src="images/icon-instagram.svg"
+                            alt="social-media-instagram"
+                        /></a>
+                        <a class="social-button" href="#">
+                          <img src="images/icon-twitter.svg" alt="social-media-twitter"
+                        /></a>
+                      </div>
+                    </footer>
+                  </div>
+
+                </section>
+              </div>
+            
+            </main>
+          </body>
+        </html>

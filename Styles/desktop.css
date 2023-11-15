@@ -1,0 +1,44 @@
+s.main-page {
+  /* background-image: url("./images/desktop/image-hero.jpg"); */
+}
+
+.resume-container {
+  margin-top: 67px;
+  width: 675px;
+}
+.details{
+  width: 50%;
+}
+
+#image-interactive {
+  width: 50vw;
+  margin-right: 10vw;
+}
+.description {
+  max-width: 40rem;
+  padding-bottom: 2rem;
+}
+.description h1 {
+  font-size: 3rem;
+}
+.description p {
+  font-size: 2rem;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.6;
+}
+.gallery-item img {
+ width: 30vw;
+}
+#contact {
+  flex-direction: column;
+  /* height: 70vh; */
+}
+
+.form-container {
+  width: auto;
+}
+
